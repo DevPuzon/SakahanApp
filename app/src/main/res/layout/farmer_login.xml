@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#243D4B">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@mipmap/ic_launcher_round" />
+        <EditText
+            android:id="@+id/text_username"
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:hint="Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/text_password"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:layout_marginTop="15dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bttn_login"
+            style="@style/textfont"
+            android:text="Login"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bttn_round_blue"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <TextView
+            android:textColor="#33CCCC"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:layout_width="80dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</RelativeLayout>

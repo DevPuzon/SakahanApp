@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#243D4B">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Buyer Information"
+            android:textColor="#33CCCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/text_fullname"
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:hint="Fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:hint="Contact Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:hint="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:hint="Email Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/text_username"
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:hint="Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/text_password"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:layout_marginTop="15dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/textfont"
+            android:text="Create"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bttn_round_blue"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+    </LinearLayout>
+</RelativeLayout>

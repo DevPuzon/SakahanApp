@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#243D4B">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@mipmap/ic_launcher_round" />
+        <Button
+            android:id="@+id/bttn_buyer"
+            style="@style/textfont"
+            android:text="I'm a buyer"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bttn_round_buyer"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <Button
+            android:id="@+id/bttn_farmer"
+            style="@style/textfont"
+            android:text="I'm a farmer"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bttn_round_farmer"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+    </LinearLayout>
+</RelativeLayout>

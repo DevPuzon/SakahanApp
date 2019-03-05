@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_market"
+            android:icon="@drawable/ic_market"
+            android:title="Market" />
+        <item
+            android:id="@+id/nav_farmer_offer"
+            android:icon="@drawable/ic_post_offer"
+            android:title="My offer" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/ic_transaction"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="Message" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_account_settings"
+            android:icon="@drawable/ic_accountsettings"
+            android:title="Account Settings" />
+    </group>
+
+</menu>

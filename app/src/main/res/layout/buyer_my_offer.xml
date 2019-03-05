@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#243D4B">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#33CCCC"
+            app:ms_floatingLabelColor="#33CCCC"
+            app:ms_hintColor="#33CCCC"
+            app:ms_hint="Type of produce"
+            app:ms_floatingLabelText="Type of produce"/>
+        <EditText
+            android:hint="Name of produce"
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Quantity"
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Description"
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Payment offer"
+            android:layout_marginTop="15dp"
+            android:textColor="#33CCCC"
+            android:textColorHint="#33CCCC"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Post"
+            android:background="@drawable/bttn_round_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
